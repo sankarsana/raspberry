@@ -1,4 +1,4 @@
-# Установка
+# Установка ngrok
 Установка через apt https://dashboard.ngrok.com/get-started/setup/raspberrypi
 ```
 curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
