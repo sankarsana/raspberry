@@ -147,6 +147,8 @@ This setting will disappear after reboot.
                 dhcp4: false
                 addresses:
                 - 192.168.1.1/24
+                nameservers:
+                    addresses: [8.8.8.8, 8.8.4.4]
     ```
     
 - The file will finally looks like this:
@@ -168,6 +170,8 @@ This setting will disappear after reboot.
                 dhcp4: false
                 addresses:
                 - 192.168.1.1/24
+                nameservers:
+                    addresses: [8.8.8.8, 8.8.4.4]
     ```
 ## Finally:
 - Reboot your Raspberry Pi and check if you can connect to it over WiFi and can SSH.
